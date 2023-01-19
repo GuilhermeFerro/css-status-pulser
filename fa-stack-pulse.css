@@ -6,3 +6,9 @@
 	line-height: 1em;
 	vertical-align: text-top;
 }
+
+.fa-rotate-45 {
+	-webkit-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
