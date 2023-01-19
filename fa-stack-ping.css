@@ -1,0 +1,22 @@
+/* Classe de container para o efeito */
+.fa-stack-ping {
+   position: relative;
+   display: inline-block;
+   width: 1em;
+   height: 1em;
+   line-height: 1em;
+   vertical-align: text-top;
+}
+
+/* Efeito de pulse */
+ .animate-ping {
+    animation: ping 1s cubic-bezier(0,0,.2,1) infinite;
+}
+
+/* Caso precise virar somente 45º */
+.fa-rotate-45 {
+   -webkit-transform: rotate(45deg);
+   -ms-transform: rotate(45deg);
+   transform: rotate(45deg);
+}
+
