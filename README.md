@@ -33,15 +33,28 @@ fa-rotate-45
 
 ### HTML:
 
+Adicione o css ao head do seu html e utilize o codigo abaixo
+
 - Agnostico:
 ```html
-<span class="fa-stack-ping" data-toggle="tooltip" data-original-title="success">
+<-- status online -->
+<span class="fa-stack-ping" data-toggle="tooltip" data-original-title="online">
   <i class="fa fa-circle fa-stack-1x text-success"></i>
   <i class="fa fa-circle fa-stack-1x text-success fa-animate-ping"></i>
 </span>
 ```
 
+```html
+<-- status offline -->
+<span class="fa-stack-ping" data-toggle="tooltip" data-original-title="offline">
+  <i class="fa fa-circle fa-stack-1x text-red"></i>
+  <i class="fa fa-circle fa-stack-1x text-red fa-animate-ping"></i>
+</span>
+```
+
 - Laravel (parametrizado)
+
+Crie um arquivo de componente para reutilização
 
 ```html
 <span class="fa-stack-ping" @isset($title) data-toggle="tooltip" data-original-title="{{ $title }}" @endisset>
