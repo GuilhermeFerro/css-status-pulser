@@ -99,3 +99,7 @@ Utiliza o conceito de `Stacked Icons`
       <i class="fa fa-circle fa-stack-1x text-red fa-animate-ping"></i>
     </span>
     ```
+
+### License
+
+- MIT License
