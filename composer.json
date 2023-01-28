@@ -1,0 +1,26 @@
+{
+    "name": "gsferro/fa-stack-ping",
+    "type": "library",
+    "license": "MIT",
+    "keywords" : ["Laravel", "CSS", "Font", "awesome", "Font awesome", "FA", "Stack", "Ping"],
+    "description": "Component and CSS from use effect ping in icon font-awesome",
+    "authors": [
+        {
+            "name": "Guilherme Ferro",
+            "email": "gsferroti@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Gsferro\\FaStackPing\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Gsferro\\FaStackPing\\Providers\\FaStackPingServiceProvider"
+            ]
+        }
+    }
+}

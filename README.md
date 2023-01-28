@@ -1,4 +1,10 @@
-# Font awesome Stack Ping
+![Logo](logo.png)
+
+### Instalação
+
+```composer 
+composer require gsferro/odometer-easy && php artisan vendor:publish --provider="Gsferro\OdometerEasy\Providers\OdometerEasyServiceProvider" --force
+```
 
 css para aplicar efeito ping em icon font awesome como forma de status, como online ou offline por ex, e até outros icones e cores, colocando no fundo o efeito de ping.
 
