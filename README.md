@@ -100,6 +100,10 @@ Utiliza o conceito de `Stacked Icons`
     </span>
     ```
 
+### Demo Online Jsfiddle
+
+  > https://jsfiddle.net/gsferroti/tdxL8vaf/11/
+
 ### License
 
 - MIT License
