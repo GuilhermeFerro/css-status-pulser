@@ -1,1 +1,4 @@
-<x-fa-stack-ping :title="$title ?? 'Online'" />
+<x-fa-stack-ping
+    {{ $attributes }}
+    :title="$title ?? 'Online'"
+/>

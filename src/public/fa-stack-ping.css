@@ -28,3 +28,35 @@
    transform: rotate(45deg);
 }
 
+/* posição em relação ao container */
+.fa-stack-right-bottom,
+.fa-stack-rb{
+   height: 16px;
+   width: 16px;
+   right: -2px;
+   bottom: -2px;
+   position: absolute;
+   z-index: 1;
+   border: 2px solid white;
+   border-radius: 100%;
+}
+
+.fa-stack-right-top,
+.fa-stack-rt {
+   height: 16px;
+   width: 16px;
+   right: -2px;
+   top: 2px;
+   position: absolute;
+   z-index: 1;
+   border: 2px solid white;
+   border-radius: 100%;
+}
+
+/* cores */
+.text-red {
+   color: #f4001e;
+}
+.text-success {
+   color: rgb(0 210 122);
+}

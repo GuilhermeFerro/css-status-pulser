@@ -45,7 +45,16 @@ composer require gsferro/fa-stack-ping && php artisan vendor:publish --provider=
         ```html
         <x-fa-stack-ping fa="plus fa-rotate-45" text="gray" title="rotate" />
         ```
-    
+    - Exemplo: `position right bottom`
+     ```html
+        <x-fa-stack-on class="fa-stack-right-bottom" />
+        <x-fa-stack-on class="fa-stack-rb" />
+    ```
+    - Exemplo: `position right top`
+     ```html
+        <x-fa-stack-off class="fa-stack-right-top" />
+        <x-fa-stack-off class="fa-stack-rt" />
+    ```
 ### Informações Gerais
 
 Css para aplicar efeito ping em icon font awesome como forma de status, como online ou offline por ex, e até outros icones e cores, colocando no fundo o efeito de ping.
@@ -74,6 +83,16 @@ Utiliza o conceito de `Stacked Icons`
     ```text
     fa-rotate-45
     ```
+- Posição em relação a container
+  - Right Bottom
+    > fa-stack-right-bottom
+    
+    > fa-stack-rb (alias)
+  
+  - Right Top
+    > fa-stack-right-top
+    
+    > fa-stack-rt (alias)
 
 ### HTML:
 
@@ -99,6 +118,10 @@ Utiliza o conceito de `Stacked Icons`
       <i class="fa fa-circle fa-stack-1x text-red fa-animate-ping"></i>
     </span>
     ```
+### Para modificar os icones e/ou versões superiores do Fontawesome: 
+  
+ Publiquei a vendor e altere o componente base `fa-stack-ping` 
+  
 
 ### Demo Online Jsfiddle
 

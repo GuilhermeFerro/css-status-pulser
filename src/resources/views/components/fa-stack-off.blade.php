@@ -1,1 +1,5 @@
-<x-fa-stack-ping text="red" :title="$title ?? 'Offline'" />
+<x-fa-stack-ping
+    {{ $attributes }}
+     text="red"
+     :title="$title ?? 'Offline'"
+/>
